@@ -8,6 +8,11 @@ namespace F2019_420._323_Example_Intro_AnonymousClasses
 {
     class Program
     {
+        /// <summary>
+        /// Demo of how partial classes work in C#.
+        /// Second example (anonCollection) shows how to access an array of anonymous objects.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var anonSimple = new { Amount = 108, Message = "\"Hello\"" };
