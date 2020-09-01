@@ -19,7 +19,7 @@ namespace F2019_420._323_Example_Intro_AnonymousClasses
 
             Console.WriteLine(string.Format("Amount is {0} and message is {1}.", anonSimple.Amount, anonSimple.Message));
 
-            var anonCollection = new[] { new { Name = "Brendan", Age = 46 }, new { Name = "Sarah", Age = 21 } };
+            var anonCollection = new[] { new { Name = "Brendan", Age = 47 }, new { Name = "Sarah", Age = 23 } };
 
             Console.WriteLine(string.Format("Name of record 2: {0} and age: {1}",anonCollection[1].Name, anonCollection[1].Age));
         }
