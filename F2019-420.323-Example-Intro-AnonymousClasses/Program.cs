@@ -15,7 +15,7 @@ namespace F2019_420._323_Example_Intro_AnonymousClasses
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            var anonSimple = new { Amount = 108, Message = "\"Hello\"" };
+            var anonSimple = new { Amount = 108, Message = "\"Hello!\"" };
 
             Console.WriteLine(string.Format("Amount is {0} and message is {1}.", anonSimple.Amount, anonSimple.Message));
 
